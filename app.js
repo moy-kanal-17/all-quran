@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Sura ma'lumotlarini yuklash
   function loadSurah(suraNumber) {
-    const apiURL = `https://api.alquran.cloud/v1/surah/${suraNumber}/uz.sodik`;
+    const apiURL = `https://api.alquran.cloud/v1/surah/${suraNumber}/`;
 
     fetch(apiURL)
       .then((response) => response.json())
